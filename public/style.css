@@ -1,0 +1,43 @@
+body { margin: 0; padding: 0.6rem; font-family: sans-serif; text-align: center; color: #fff;
+       background: radial-gradient(circle at 50% 0%, #3a2a6a, #1e1e2f 65%); min-height: 100vh; }
+[hidden] { display: none !important; }
+h1, h2, h3 { margin: 0.4rem 0; }
+button { font-size: 1.1rem; padding: 0.6rem 1.2rem; border: none; border-radius: 8px;
+         background: #8ab4ff; color: #111; font-weight: bold; cursor: pointer; }
+button:disabled { opacity: 0.4; cursor: default; }
+button.good { background: #81c784; }
+button.big { font-size: 1.4rem; padding: 0.8rem 1.6rem; }
+.progress { opacity: 0.75; font-size: 0.95rem; margin: 0.3rem 0; }
+.lasttext { min-height: 1.5em; margin: 0.4rem 0; font-size: 1.05rem; }
+.rules { max-width: 640px; margin: 0.6rem auto; text-align: left; font-size: 1.1rem; line-height: 1.45; }
+.rules li { margin: 0.4rem 0; }
+
+.card { display: block; width: 100%; height: auto; filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.5)); }
+.desk { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 12px auto;
+        padding: 10px; max-width: 640px; border-radius: 12px;
+        background: linear-gradient(#6d4c41, #4e342e); }
+.deskitem { width: 92px; font-size: 0.85rem; }
+.ico svg { display: block; width: 100%; height: auto; }
+
+.objbtn { padding: 0.4rem; background: #33334d; color: #fff; border: 3px solid #4a4a73;
+          border-radius: 14px; font-size: 0.95rem; }
+.objbtn:active { background: #4a4a73; }
+.objbtn .ico { max-width: 96px; margin: 0 auto; }
+#grid.frozen { opacity: 0.35; pointer-events: none; }
+.frozen-note { background: #1565c0; display: inline-block; padding: 0.3rem 1rem;
+               border-radius: 999px; font-weight: bold; margin: 0.3rem 0; }
+.toast { position: fixed; left: 50%; bottom: 14px; transform: translateX(-50%);
+         background: rgba(0, 0, 0, 0.85); padding: 0.5rem 1.2rem; border-radius: 999px;
+         font-size: 1.1rem; z-index: 5; }
+.topline { display: flex; justify-content: space-between; align-items: center;
+           max-width: 520px; margin: 0 auto 0.4rem; font-weight: bold; }
+details { max-width: 520px; margin: 0.8rem auto; text-align: left; opacity: 0.9; }
+summary { cursor: pointer; text-align: center; }
+
+ul.scores { list-style: none; padding: 0; margin: 0.6rem auto; max-width: 420px; text-align: left; }
+ul.scores li { display: flex; align-items: center; gap: 0.6rem; background: #33334d;
+               border-radius: 10px; padding: 0.4rem 0.8rem; margin: 4px 0; font-size: 1.15rem; }
+ul.scores li.me { outline: 2px solid #81c784; }
+ul.scores li.away { opacity: 0.55; }
+.dot { width: 0.9rem; height: 0.9rem; border-radius: 50%; flex: none; }
+.pname { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }

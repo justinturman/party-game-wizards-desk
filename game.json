@@ -1,0 +1,10 @@
+{
+  "id": "wizards-desk",
+  "name": "Wizard's Desk",
+  "category": "Party",
+  "description": "A fast-paced reflex game of magical items.",
+  "summary": "A card with two items is revealed. If one matches its true color, tap it! If both colors are wrong, tap the missing item! The fastest wizard wins.",
+  "thumbnail": "thumbnail.jpg",
+  "color": "#2c1b4d",
+  "openJoin": true
+}
