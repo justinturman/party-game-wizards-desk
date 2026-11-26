@@ -1,10 +1,10 @@
 {
   "id": "wizards-desk",
   "name": "Wizard's Desk",
-  "category": "Party",
-  "description": "A fast-paced reflex game of magical items.",
-  "summary": "A card with two items is revealed. If one matches its true color, tap it! If both colors are wrong, tap the missing item! The fastest wizard wins.",
+  "category": "Reaction Games",
+  "description": "Spot the right magical object on the card, and tap it before anyone else.",
+  "summary": "Five magical objects sit on the wizard's desk: a White Owl, a Red Candle, a Green Frog, a Blue Crystal and a Grey Key. A card is turned over showing some of them, in all sorts of colours. If an object is shown in its own colour, tap it. If none is, tap the object whose shape and colour are both missing from the card. The first right tap wins the card and a point, and the next card appears at once. A wrong tap freezes you for a few seconds. Thirty cards make a game. Players can join or leave at any time.",
   "thumbnail": "thumbnail.jpg",
-  "color": "#2c1b4d",
+  "color": "#4527a0",
   "openJoin": true
 }
